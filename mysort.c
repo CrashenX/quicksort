@@ -67,8 +67,7 @@ int main()
     quicksort(buffer, 0, count-1);
 
     for(unsigned int i = 0; i < count; ++i) {
-        ;
-        //printf("%u\n", buffer[i]);
+        printf("%u\n", buffer[i]);
     }
 
     free(buffer);
